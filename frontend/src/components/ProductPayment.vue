@@ -29,7 +29,7 @@
       }
     },
     async created() {
-      this.stripe = await loadStripe('pk_test_51PwRqnLWjJxv0G1Er0HZRwuBRihlMeHZUCzkCKK1LhXh2jwOQiMrWGjtjLkToDyNEAmy9gUtaWFSoN6kd7nXWqPO00WqnuDrB4');
+      this.stripe = await loadStripe('your_stripe_secret_key');
       this.elements = this.stripe.elements();
       const cardElement = this.elements.create('card');
       cardElement.mount('#card-element');

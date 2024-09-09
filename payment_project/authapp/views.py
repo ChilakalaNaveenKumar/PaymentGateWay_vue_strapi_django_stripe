@@ -59,7 +59,7 @@ class ForgotPasswordView(APIView):
         return Response({"message": "Password reset link sent!"}, status=status.HTTP_200_OK)
 
 # Stripe API Key (add this to your settings.py file)
-stripe.api_key = "your_publishable_stripe_key"
+stripe.api_key = "your_publishable_key"
 
 class StripePaymentView(APIView):
     def post(self, request):

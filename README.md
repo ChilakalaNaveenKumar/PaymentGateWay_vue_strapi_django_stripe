@@ -6,7 +6,7 @@ This project is a modern payment gateway that integrates **Vue.js**, **Django**,
 
 ## Blog Documentation
 
-## Follow blog for Django installations.
+### Follow blog for Django installations.
 For a detailed guide on how this project was built, refer to the blog post:  
 [Building a Modern Payment Gateway with Django, Vue.js, and Stripe](https://nchilaka.hashnode.dev/building-a-modern-payment-gateway-with-django-vuejs-and-stripe)
 

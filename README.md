@@ -1,3 +1,4 @@
+# Follow blog for Django installations.
 
 # PaymentGateWay_vue_django_stripe
 
